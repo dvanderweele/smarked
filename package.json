@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Simple, opinionated and secure markdown to html element parser based on marked library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "parser",
+    "marked",
+    "html"
+  ],
+  "author": "Dave VanderWeele",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "esbuild": "^0.18.18",
+    "marked": "^6.0.0",
+    "node-fetch": "^3.2.6"
+  }
+}
