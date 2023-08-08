@@ -1,6 +1,6 @@
 {
   "name": "nodejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple, opinionated and secure markdown to html element parser based on marked library.",
   "main": "index.js",
   "scripts": {

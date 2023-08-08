@@ -157,18 +157,15 @@ const blocks = new Map(
         token, 
         recur
       ) => {
-        if(
-          token.raw.length < 2
-        ) return ""
+        const breaks = token.raw.match(/  \n/g)
+        if(!breaks){
+          return ""
+        }
         const e = document.createElement(
           "div"
         )
-        e.append(...token.raw.split(
-          ""
-        ).slice(
-          0, -1
-        ).map(
-          b => document.createElement(
+        e.append(...breaks.map(
+          () => document.createElement(
             "br"
           )
         ))
