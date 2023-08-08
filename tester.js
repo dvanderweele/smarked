@@ -35,6 +35,17 @@ My favorite \`function\`\'s name is freddy
 
 `
 
+const md2 = `
+## halp
+
+* hello
+* dubious news
+* huffulous clues
+
+Hi, mya hihi
+
+`
+
 const els = mdToElements(
   md
 )
@@ -44,5 +55,12 @@ const b = document.querySelector(
 )
 b.append(
   ...els
+)
+
+const e2 = mdToElements(
+  md2
+)
+b.append(
+  ...e2
 )
 

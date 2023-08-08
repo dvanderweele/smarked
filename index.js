@@ -49,11 +49,12 @@ const blocks = new Map(
         recur,
         languageRenderer
       ) => {
+        let e
         if(
           languageRenderer &&
           token.lang.length > 0
         ){
-          const e = document.createElement(
+          e = document.createElement(
             "div"
           )
           e.append(
@@ -63,7 +64,7 @@ const blocks = new Map(
             )
           )
         } else {
-          const e = document.createElement(
+          e = document.createElement(
             "pre"
           )
           e.innerText = token.text
