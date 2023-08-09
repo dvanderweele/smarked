@@ -1,6 +1,6 @@
 {
-  "name": "nodejs",
-  "version": "1.0.2",
+  "name": "@dvanderweele/smarked",
+  "version": "1.1.0",
   "description": "Simple, opinionated and secure markdown to html element parser based on marked library.",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,13 @@
     "esbuild": "^0.18.18",
     "marked": "^6.0.0",
     "node-fetch": "^3.2.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvanderweele/smarked.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dvanderweele/smarked/issues"
+  },
+  "homepage": "https://github.com/dvanderweele/smarked#readme"
 }
